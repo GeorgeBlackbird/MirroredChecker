@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Name>MirroredChecker</Name>
+		<Assembly>MirroredChecker.dll</Assembly>
+		<AddInId>7B633FF9-ED36-4876-84AC-A44568D78606</AddInId>
+		<FullClassName>MirroredChecker.DetectMirrored</FullClassName>
+		<Text>Поиск отзеркаливания</Text>
+		<Description>Ищет все отзеркаленные элементы, возвращает их в виде списка в всплывающем окне, а так же выделяет их в документе</Description>
+		<VendorId>Георгий Дроздов</VendorId>
+		<VendorDescription>Создано Дроздовым Георгием (github.com/GeorgeBlackbird)</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+</RevitAddIns>
